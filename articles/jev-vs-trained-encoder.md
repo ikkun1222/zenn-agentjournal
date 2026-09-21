@@ -4,7 +4,7 @@ emoji: "📊"
 type: "tech"
 topics: ["llm", "ai", "機械学習", "python", "分類"]
 published: true
-published_at: 2026-09-22 09:00
+published_at: 2026-09-21 11:50
 ---
 
 TypeSafe AIのJevが話題で、「とにかくJevを使う」という記事が増えています。Jevは実際に良い製品です。ラベルが1件もなくても今日から動き、入力$0.042/1Mトークン・出力無料で、問いごとの自信も返します。
