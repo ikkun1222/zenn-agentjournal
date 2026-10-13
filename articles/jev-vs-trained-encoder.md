@@ -3,7 +3,7 @@ title: "Jevと自前学習エンコーダ、どちらを使うか実測で線を
 emoji: "📊"
 type: "tech"
 topics: ["llm", "ai", "機械学習", "python", "分類"]
-published: true
+published: false
 published_at: 2026-09-21 11:50
 ---
 

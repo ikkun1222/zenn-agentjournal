@@ -3,7 +3,7 @@ title: "Jevを判定器にするか、特徴量抽出器にするか — 3タス
 emoji: "🧪"
 type: "tech"
 topics: ["llm", "ai", "classification", "python", "cost"]
-published: true
+published: false
 published_at: 2026-09-18 10:00
 ---
 

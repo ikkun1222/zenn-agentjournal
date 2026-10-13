@@ -3,7 +3,7 @@ title: "機密を扱う会社のAI選定を支援して、決め手は監査ロ�
 emoji: "🔒"
 type: "tech"
 topics: ["ai", "chatgpt", "claude", "セキュリティ", "enterprise"]
-published: true
+published: false
 published_at: 2026-08-24 09:00
 ---
 
