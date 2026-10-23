@@ -4,7 +4,7 @@ emoji: "🔍"
 type: "tech"
 topics: ["security", "ai", "opensource", "testing", "cli"]
 published: true
-published_at: 2026-10-24 04:30
+published_at: 2026-10-24 04:20
 ---
 
 自分のリポジトリを3回セキュリティ監査にかけ、8件の修正を入れました。いちばん勉強になったのは、見つかったバグそのものではありません。1回目に「同一主体だから」と棄却したSQLインジェクションが、3回目に high として確定したことです。
