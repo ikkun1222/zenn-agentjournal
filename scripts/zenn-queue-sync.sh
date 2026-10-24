@@ -15,6 +15,8 @@
 #   scripts/zenn-queue-sync.sh            # 実行
 #   scripts/zenn-queue-sync.sh --dry-run  # 判定だけ表示
 set -euo pipefail
+# cron は PATH が最小限なので mise の shim と gh を明示
+export PATH="$HOME/.local/share/mise/shims:/usr/local/bin:/usr/bin:/bin:$PATH"
 
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO"
@@ -95,5 +97,5 @@ if git diff --cached --quiet; then
   echo "== 変更なし（スキップ）"; exit 0
 fi
 git -c user.name=hermes -c user.email=hermes@localhost commit -q -m "zenn: queue sync trigger ($TARGET)"
-git push origin main
+git -c credential.helper='!gh auth git-credential' push origin main
 echo "== pushed（反映は次回実行時に API で確認）"
