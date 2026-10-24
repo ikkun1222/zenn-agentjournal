@@ -4,7 +4,7 @@ emoji: "🔐"
 type: "tech"
 topics: ["security", "opencode", "ai", "api"]
 published: true
-published_at: 2026-10-24 10:55
+published_at: 2026-10-24 11:07
 ---
 
 2026年10月17日に「OpenCodeがハックされ、ユーザーの資格情報が漏れた」という話が流れました。最初に多くの人が確認したのは、毎日使っているCLIでした。しかし漏洩したのは **OpenCode Console** です。Consoleは、プロバイダのアカウントを接続してワークスペース内で共有するための、任意で使うホスト型サービスで、資格情報はConsole側に保存されます。
